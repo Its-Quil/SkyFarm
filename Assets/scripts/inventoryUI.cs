@@ -13,6 +13,7 @@ public class InventoryUI : MonoBehaviour
         DisplayInventory();
     }
 
+    // Display the inventory on the UI
     void DisplayInventory()
     {
         inventoryText.text = "";

@@ -18,6 +18,7 @@ public class Crop
         CurrentGrowthStage = 0;
     }
 
+    // Simulate the growth of the crop
     public void Grow()
     {
         if (CurrentGrowthStage < GrowthTime)
@@ -26,19 +27,18 @@ public class Crop
         }
     }
 
+    // Plant the crop at the specified position
     public void PlantCrop(Crop crop, Vector3 position)
     {
-        // Instantiate the crop at the specified position
-        // You can create a Crop GameObject prefab
         GameObject cropObject = GameObject.Instantiate(cropPrefab, position, Quaternion.identity);
         cropObject.GetComponent<CropComponent>().Initialize(crop);
     }
 
+    // Harvest the crop if it is ready
     public void HarvestCrop(Crop crop)
     {
         if (crop.IsHarvestable)
         {
-            // Give player item, destroy crop object
             GameObject.Destroy(crop.cropPrefab);
         }
     }

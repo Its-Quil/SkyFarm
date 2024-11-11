@@ -6,9 +6,9 @@ public class MoveCamera : MonoBehaviour
 {
     public Transform cameraPosition;
 
-    private void Update()
+    void Update()
     {
+        // Move the camera to the specified position
         transform.position = cameraPosition.position;
-        
     }
 }

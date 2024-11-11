@@ -2,8 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class playercam : MonoBehaviour
-{ 
+public class PlayerCam : MonoBehaviour
+{
     public float sensX;
     public float sensY;
 
@@ -12,12 +12,13 @@ public class playercam : MonoBehaviour
     float xRotation;
     float yRotation;
 
-    private void Start()
+    void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
-    private void Update()
+
+    void Update()
     {
         float mouseX = Input.GetAxis("Mouse X") * sensX * Time.deltaTime;
         float mouseY = Input.GetAxis("Mouse Y") * sensY * Time.deltaTime;
@@ -28,8 +29,5 @@ public class playercam : MonoBehaviour
 
         transform.rotation = Quaternion.Euler(xRotation, yRotation, 0f);
         orientation.rotation = Quaternion.Euler(0f, yRotation, 0f);
-
     }
-
-
 }
