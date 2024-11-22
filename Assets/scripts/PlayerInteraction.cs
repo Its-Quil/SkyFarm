@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class PlayerInteraction : MonoBehaviour
 {
+    private CropComponent currentCrop;
+
     // This method is called when the player enters a trigger collider
     private void OnTriggerEnter(Collider other)
     {
@@ -29,16 +31,25 @@ public class PlayerInteraction : MonoBehaviour
         // Check if the player is close to a crop
         if (other.CompareTag("Crop"))
         {
-            CropComponent cropComponent = other.GetComponent<CropComponent>();
-            if (cropComponent != null && cropComponent.Crop != null)
-            {
-                gameManager.HarvestCrop(cropComponent.Crop);
-                Destroy(other.gameObject); // Optionally destroy the GameObject after harvesting
-            }
-            else
-            {
-                Debug.LogError("CropComponent or Crop is null.");
-            }
+            currentCrop = other.GetComponent<CropComponent>();
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Crop"))
+        {
+            currentCrop = null;
+        }
+    }
+
+    private void Update()
+    {
+        if (currentCrop != null && Input.GetKeyDown(KeyCode.F))
+        {
+            GameManager gameManager = FindObjectOfType<GameManager>();
+            gameManager.HarvestCrop(currentCrop.Crop);
+            Destroy(currentCrop.gameObject); // Destroy the crop GameObject
         }
     }
 }

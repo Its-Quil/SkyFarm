@@ -25,5 +25,16 @@ public class CropComponent : MonoBehaviour
         GameManager gameManager = FindObjectOfType<GameManager>();
         gameManager.HarvestCrop(crop);
     }
+
+    // Detect 'F' key press when player is near the crop
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            GameManager gameManager = FindObjectOfType<GameManager>();
+            gameManager.HarvestCrop(crop);
+            Destroy(gameObject); // Destroy the crop GameObject
+        }
+    }
 }
 

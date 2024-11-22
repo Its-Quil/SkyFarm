@@ -7,10 +7,19 @@ public class InventoryUI : MonoBehaviour
 {
     public GameManager gameManager;
     public Text inventoryText; // Assign this in the Inspector
+    public GameObject inventoryPanel; // Assign this in the Inspector
 
     void Update()
     {
-        DisplayInventory();
+        if (Input.GetKeyDown(KeyCode.I))
+        {
+            inventoryPanel.SetActive(!inventoryPanel.activeSelf);
+        }
+
+        if (inventoryPanel.activeSelf)
+        {
+            DisplayInventory();
+        }
     }
 
     // Display the inventory on the UI

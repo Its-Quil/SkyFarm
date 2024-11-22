@@ -1,6 +1,0 @@
-Base path: 'F:/unity/2022.3.47f1/Editor/Data', plugins path 'F:/unity/2022.3.47f1/Editor/Data/PlaybackEngines'
-Cmd: initializeCompiler
-
-Cmd: disassembleShader
- name=UI/Default platform=d3d11 type=15 mask=6 insize=1690 outsize=3155 ok=1
-
