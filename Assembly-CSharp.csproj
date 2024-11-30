@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{993A71DA-BDC6-70A4-CE31-E7A247D66ED6}</ProjectGuid>
+    <ProjectGuid>{11892F31-0CC8-B484-B58F-6A77AF433C15}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -60,12 +60,12 @@
     <Analyzer Include="F:\unity\2022.3.47f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\scripts\Item.cs" />
     <Compile Include="Assets\scripts\crops.cs" />
     <Compile Include="Assets\scripts\GameManager.cs" />
     <Compile Include="Assets\scripts\foragebleComponent.cs" />
     <Compile Include="Assets\scripts\PlayerMovement.cs" />
     <Compile Include="Assets\scripts\forageble.cs" />
-    <Compile Include="Assets\scripts\PlayerInteraction.cs" />
     <Compile Include="Assets\scripts\moveCamera.cs" />
     <Compile Include="Assets\scripts\playercam.cs" />
     <Compile Include="Assets\scripts\cropComponent.cs" />
