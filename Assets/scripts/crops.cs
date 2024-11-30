@@ -5,25 +5,33 @@ using UnityEngine;
 public class Crop
 {
     public string Name { get; set; }
-    public float GrowthTime { get; set; } // in seconds
-    public float CurrentGrowthTime { get; set; } // 0 to GrowthTime
-    public bool IsHarvestable => CurrentGrowthTime >= GrowthTime;
+    public int GrowthTime { get; set; } // in days
+    public int CurrentGrowthStage { get; set; } // 0 to GrowthTime
+    public bool IsHarvestable => CurrentGrowthStage >= GrowthTime;
 
     public GameObject cropPrefab;
 
-    public Crop(string name, float growthTime)
+    public Crop(string name, int growthTime)
     {
         Name = name;
         GrowthTime = growthTime;
-        CurrentGrowthTime = 0;
+        CurrentGrowthStage = 0;
     }
 
+<<<<<<< HEAD
     // Simulate the growth of the crop
     public void Grow(float deltaTime)
+=======
+    public void Grow()
+>>>>>>> parent of e00ce79e (i added some scripts)
     {
-        if (CurrentGrowthTime < GrowthTime)
+        if (CurrentGrowthStage < GrowthTime)
         {
+<<<<<<< HEAD
             CurrentGrowthTime += deltaTime;
+=======
+            CurrentGrowthStage++;
+>>>>>>> parent of e00ce79e (i added some scripts)
         }
     }
 

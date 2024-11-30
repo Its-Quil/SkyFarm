@@ -1,3 +1,0 @@
-repository "SkyFarm@davedevisser03@cloud"
-  path "/"
-    smartbranch "/main"

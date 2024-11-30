@@ -16,6 +16,7 @@ F:/unity/game/park
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
+<<<<<<< HEAD
 58138
 Successfully changed project path to: F:/unity/game/park
 F:/unity/game/park
@@ -28,6 +29,11 @@ Logs/AssetImportWorker1.log
 Successfully changed project path to: F:/unity/game/backup_github sav3e/SkyFarm
 F:/unity/game/backup_github sav3e/SkyFarm
 >>>>>>> Stashed changes
+=======
+54705
+Successfully changed project path to: F:/unity/game/park
+F:/unity/game/park
+>>>>>>> parent of e00ce79e (i added some scripts)
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -59,15 +65,23 @@ F:/unity/game/backup_github sav3e/SkyFarm
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 Player connection [30688]  Target information:
+=======
+Player connection [15932]  Target information:
+>>>>>>> parent of e00ce79e (i added some scripts)
 
 Player connection [30688]  * "[IP] 10.2.100.140 [Port] 0 [Flags] 2 [Guid] 3434796380 [EditorId] 3434796380 [Version] 1048832 [Id] WindowsEditor(7,BlubDev) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
 Player connection [30688] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [30688] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 7523.15 ms, found 3 plugins.
+=======
+Refreshing native plugins compatible for Editor in 13.88 ms, found 3 plugins.
+>>>>>>> parent of e00ce79e (i added some scripts)
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.47f1 (88c277b85d21)
 [Subsystems] Discovering subsystems at path F:/unity/2022.3.47f1/Editor/Data/Resources/UnitySubsystems
@@ -99,15 +113,20 @@ Initialize mono
 Mono path[0] = 'F:/unity/2022.3.47f1/Editor/Data/Managed'
 Mono path[1] = 'F:/unity/2022.3.47f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'F:/unity/2022.3.47f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
 =======
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56044
 >>>>>>> Stashed changes
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56020
+>>>>>>> parent of e00ce79e (i added some scripts)
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: F:/unity/2022.3.47f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: F:/unity/2022.3.47f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 Registered in 0.321194 seconds.
 - Loaded All Assemblies, in 14.431 seconds
@@ -127,13 +146,27 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling: 492ms
 	BeginReloadAssembly (112ms)
 >>>>>>> Stashed changes
+=======
+Registered in 0.017842 seconds.
+- Loaded All Assemblies, in  0.687 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.429 seconds
+Domain Reload Profiling: 1115ms
+	BeginReloadAssembly (269ms)
+>>>>>>> parent of e00ce79e (i added some scripts)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 	RebuildCommonClasses (55ms)
+=======
+	RebuildCommonClasses (59ms)
+>>>>>>> parent of e00ce79e (i added some scripts)
 	RebuildNativeTypeToScriptingClass (15ms)
 	initialDomainReloadingComplete (415ms)
 	LoadAllAssembliesAndSetupDomain (672ms)
@@ -153,6 +186,7 @@ Domain Reload Profiling: 492ms
 			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
+<<<<<<< HEAD
 			ProcessInitializeOnLoadAttributes (224ms)
 			ProcessInitializeOnLoadMethodAttributes (88ms)
 =======
@@ -179,6 +213,10 @@ Domain Reload Profiling: 492ms
 			ProcessInitializeOnLoadAttributes (112ms)
 			ProcessInitializeOnLoadMethodAttributes (37ms)
 >>>>>>> Stashed changes
+=======
+			ProcessInitializeOnLoadAttributes (244ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
+>>>>>>> parent of e00ce79e (i added some scripts)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -187,11 +225,15 @@ Domain Reload Profiling: 492ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 - Loaded All Assemblies, in 14.006 seconds
 =======
 - Loaded All Assemblies, in  0.546 seconds
 >>>>>>> Stashed changes
+=======
+- Loaded All Assemblies, in  2.357 seconds
+>>>>>>> parent of e00ce79e (i added some scripts)
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -199,10 +241,159 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 - Finished resetting the current domain, in  1.839 seconds
 Domain Reload Profiling: 15837ms
 	BeginReloadAssembly (341ms)
+=======
+- Finished resetting the current domain, in  1.019 seconds
+Domain Reload Profiling: 3373ms
+	BeginReloadAssembly (332ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (1877ms)
+		LoadAssemblies (1803ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (309ms)
+			TypeCache.Refresh (272ms)
+				TypeCache.ScanAssembly (249ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1020ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (802ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (657ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 6.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3092 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (27.2 KB). Loaded Objects now: 3577.
+Memory consumption went from 128.2 MB to 128.2 MB.
+Total: 5.124200 ms (FindLiveObjects: 0.297500 ms CreateObjectMapping: 0.112800 ms MarkObjects: 4.611400 ms  DeleteObjects: 0.100200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 263793.563157 seconds.
+  path: Assets/terrain
+  artifactKey: Guid(7f8326c5a30159d4d8f0dfa7ba8bfe05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/terrain using Guid(7f8326c5a30159d4d8f0dfa7ba8bfe05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e4491e1b2e845d5aa7947c5c50243959') in 0.004038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  4.773 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 32.710 seconds
+Domain Reload Profiling: 37480ms
+	BeginReloadAssembly (295ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (4359ms)
+		LoadAssemblies (4545ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (28ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (32712ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (811ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (605ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (20ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 6.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3084 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.4 KB). Loaded Objects now: 3580.
+Memory consumption went from 127.2 MB to 127.2 MB.
+Total: 5.430800 ms (FindLiveObjects: 0.306200 ms CreateObjectMapping: 0.121200 ms MarkObjects: 4.935000 ms  DeleteObjects: 0.066200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.748 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.248 seconds
+Domain Reload Profiling: 1993ms
+	BeginReloadAssembly (318ms)
+>>>>>>> parent of e00ce79e (i added some scripts)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
@@ -455,6 +646,7 @@ Domain Reload Profiling: 2069ms
 		AwakeInstancesAfterBackupRestoration (11ms)
 Refreshing native plugins compatible for Editor in 4.97 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+<<<<<<< HEAD
 Unloading 3090 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3596.
 Memory consumption went from 128.0 MB to 128.0 MB.
@@ -567,6 +759,12 @@ Unloading 3143 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3662.
 Memory consumption went from 130.8 MB to 130.8 MB.
 Total: 3.963100 ms (FindLiveObjects: 0.149200 ms CreateObjectMapping: 0.064100 ms MarkObjects: 3.717100 ms  DeleteObjects: 0.031900 ms)
+=======
+Unloading 3085 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3586.
+Memory consumption went from 127.4 MB to 127.4 MB.
+Total: 4.646400 ms (FindLiveObjects: 0.243500 ms CreateObjectMapping: 0.099700 ms MarkObjects: 4.244300 ms  DeleteObjects: 0.057200 ms)
+>>>>>>> parent of e00ce79e (i added some scripts)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -583,20 +781,42 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+<<<<<<< HEAD
+=======
+========================================================================
+Received Import Request.
+  Time since last request: 1192.556246 seconds.
+  path: Assets/texture/brown_mud_leaves_01_4k.blend/Materials/NewLayer 1.terrainlayer
+  artifactKey: Guid(5431e5feae44c4247a1690c886726d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texture/brown_mud_leaves_01_4k.blend/Materials/NewLayer 1.terrainlayer using Guid(5431e5feae44c4247a1690c886726d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '77b7124f5d3a6d096d12e0912f6b4a9a') in 0.172760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+>>>>>>> parent of e00ce79e (i added some scripts)
 ========================================================================
 Received Prepare
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
+<<<<<<< HEAD
 - Loaded All Assemblies, in  0.653 seconds
+=======
+- Loaded All Assemblies, in  5.731 seconds
+>>>>>>> parent of e00ce79e (i added some scripts)
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Finished resetting the current domain, in  1.151 seconds
 Domain Reload Profiling: 1799ms
 	BeginReloadAssembly (240ms)
+=======
+- Finished resetting the current domain, in 35.280 seconds
+Domain Reload Profiling: 41010ms
+	BeginReloadAssembly (306ms)
+>>>>>>> parent of e00ce79e (i added some scripts)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
@@ -616,6 +836,7 @@ Domain Reload Profiling: 1799ms
 	FinalizeReload (1151ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
+<<<<<<< HEAD
 		SetupLoadedEditorAssemblies (638ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (11ms)
@@ -634,6 +855,26 @@ Unloading 3143 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3665.
 Memory consumption went from 130.8 MB to 130.8 MB.
 Total: 2.929400 ms (FindLiveObjects: 0.211600 ms CreateObjectMapping: 0.078900 ms MarkObjects: 2.593100 ms  DeleteObjects: 0.044900 ms)
+=======
+		SetupLoadedEditorAssemblies (1371ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (207ms)
+			ProcessInitializeOnLoadAttributes (1029ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (37ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 305.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3085 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3596.
+Memory consumption went from 131.6 MB to 131.5 MB.
+Total: 7.309500 ms (FindLiveObjects: 0.419900 ms CreateObjectMapping: 0.204800 ms MarkObjects: 6.605900 ms  DeleteObjects: 0.076400 ms)
+>>>>>>> parent of e00ce79e (i added some scripts)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -643,6 +884,10 @@ AssetImportParameters requested are different than current active one (requested
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+<<<<<<< HEAD
+=======
+  custom:scripting/monoscript/fileName/crops.cs: 5b94833bc340ff61ae3f9eab6daa850a -> 
+>>>>>>> parent of e00ce79e (i added some scripts)
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
@@ -650,6 +895,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+<<<<<<< HEAD
 ========================================================================
 Received Prepare
 Caller must complete domain reload
@@ -742,3 +988,15 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 >>>>>>> Stashed changes
+=======
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 8207ac8296ef5269eea805041e37d221 -> 5fc1a79a6694a7558a3aef721b237619
+========================================================================
+Received Import Request.
+  Time since last request: 13358.932088 seconds.
+  path: Assets/scripts/crops.cs
+  artifactKey: Guid(4b69823a532dcd24488a2b4becf3ff86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/crops.cs using Guid(4b69823a532dcd24488a2b4becf3ff86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'acfdf46d72fce12187d1f21f4ca9679c') in 0.006497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+>>>>>>> parent of e00ce79e (i added some scripts)

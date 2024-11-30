@@ -357,7 +357,10 @@
 "Assets/scripts/forageble.cs"
 "Assets/scripts/foragebleComponent.cs"
 "Assets/scripts/GameManager.cs"
+<<<<<<< HEAD
 "Assets/scripts/Item.cs"
+=======
+>>>>>>> parent of e00ce79e (i added some scripts)
 "Assets/scripts/moveCamera.cs"
 "Assets/scripts/playercam.cs"
 "Assets/scripts/PlayerInteraction.cs"

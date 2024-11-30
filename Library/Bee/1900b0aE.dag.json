@@ -19387,8 +19387,13 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp",
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1306142,
       "PayloadLength": 27550,
+=======
+      "PayloadOffset": 1304877,
+      "PayloadLength": 27487,
+>>>>>>> parent of e00ce79e (i added some scripts)
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -19400,7 +19405,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1333779,
+=======
+      "PayloadOffset": 1332451,
+>>>>>>> parent of e00ce79e (i added some scripts)
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -19649,7 +19658,10 @@
         "Assets/scripts/forageble.cs",
         "Assets/scripts/foragebleComponent.cs",
         "Assets/scripts/GameManager.cs",
+<<<<<<< HEAD
         "Assets/scripts/Item.cs",
+=======
+>>>>>>> parent of e00ce79e (i added some scripts)
         "Assets/scripts/moveCamera.cs",
         "Assets/scripts/playercam.cs",
         "Assets/scripts/PlayerInteraction.cs",
@@ -19892,7 +19904,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1333875,
+=======
+      "PayloadOffset": 1332547,
+>>>>>>> parent of e00ce79e (i added some scripts)
       "PayloadLength": 9366,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
