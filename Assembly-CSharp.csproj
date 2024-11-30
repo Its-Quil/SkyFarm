@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{11892F31-0CC8-B484-B58F-6A77AF433C15}</ProjectGuid>
+    <ProjectGuid>{993A71DA-BDC6-70A4-CE31-E7A247D66ED6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -66,6 +66,7 @@
     <Compile Include="Assets\scripts\foragebleComponent.cs" />
     <Compile Include="Assets\scripts\PlayerMovement.cs" />
     <Compile Include="Assets\scripts\forageble.cs" />
+    <Compile Include="Assets\scripts\PlayerInteraction.cs" />
     <Compile Include="Assets\scripts\moveCamera.cs" />
     <Compile Include="Assets\scripts\playercam.cs" />
     <Compile Include="Assets\scripts\cropComponent.cs" />

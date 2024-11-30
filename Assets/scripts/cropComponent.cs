@@ -14,9 +14,8 @@ public class CropComponent : MonoBehaviour
         // Set visual representation based on crop properties
     }
 
-<<<<<<< Updated upstream
     // Additional methods for harvesting, etc.
-=======
+
     // Detect mouse click on crop object
     private void OnMouseDown()
     {
@@ -37,5 +36,4 @@ public class CropComponent : MonoBehaviour
         // Update crop growth
         crop.Grow(Time.deltaTime);
     }
->>>>>>> Stashed changes
 }

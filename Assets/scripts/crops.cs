@@ -18,17 +18,12 @@ public class Crop
         CurrentGrowthTime = 0;
     }
 
-<<<<<<< Updated upstream
-    public void Grow()
-=======
     // Simulate the growth of the crop
     public void Grow(float deltaTime)
->>>>>>> Stashed changes
     {
         if (CurrentGrowthTime < GrowthTime)
         {
-<<<<<<< Updated upstream
-            CurrentGrowthStage++;
+            CurrentGrowthTime += deltaTime;
         }
     }
 
@@ -46,9 +41,6 @@ public class Crop
         {
             // Give player item, destroy crop object
             GameObject.Destroy(crop.cropPrefab);
-=======
-            CurrentGrowthTime += deltaTime;
->>>>>>> Stashed changes
         }
     }
 }

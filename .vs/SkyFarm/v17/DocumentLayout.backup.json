@@ -3,27 +3,35 @@
   "WorkspaceRootPath": "F:\\unity\\game\\backup_github sav3e\\SkyFarm\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{993A71DA-BDC6-70A4-CE31-E7A247D66ED6}|Assembly-CSharp.csproj|F:\\unity\\game\\backup_github sav3e\\SkyFarm\\assets\\scripts\\playerinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{993A71DA-BDC6-70A4-CE31-E7A247D66ED6}|Assembly-CSharp.csproj|f:\\unity\\game\\backup_github sav3e\\skyfarm\\assets\\scripts\\playerinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{993A71DA-BDC6-70A4-CE31-E7A247D66ED6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{993A71DA-BDC6-70A4-CE31-E7A247D66ED6}|Assembly-CSharp.csproj|F:\\unity\\game\\backup_github sav3e\\SkyFarm\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{993A71DA-BDC6-70A4-CE31-E7A247D66ED6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{993A71DA-BDC6-70A4-CE31-E7A247D66ED6}|Assembly-CSharp.csproj|F:\\unity\\game\\backup_github sav3e\\SkyFarm\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{993A71DA-BDC6-70A4-CE31-E7A247D66ED6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{993A71DA-BDC6-70A4-CE31-E7A247D66ED6}|Assembly-CSharp.csproj|F:\\unity\\game\\backup_github sav3e\\SkyFarm\\assets\\scripts\\cropcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{993A71DA-BDC6-70A4-CE31-E7A247D66ED6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cropcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{993A71DA-BDC6-70A4-CE31-E7A247D66ED6}|Assembly-CSharp.csproj|F:\\unity\\game\\backup_github sav3e\\SkyFarm\\assets\\scripts\\movecamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{993A71DA-BDC6-70A4-CE31-E7A247D66ED6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movecamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{993A71DA-BDC6-70A4-CE31-E7A247D66ED6}|Assembly-CSharp.csproj|f:\\unity\\game\\backup_github sav3e\\skyfarm\\assets\\scripts\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{993A71DA-BDC6-70A4-CE31-E7A247D66ED6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{993A71DA-BDC6-70A4-CE31-E7A247D66ED6}|Assembly-CSharp.csproj|F:\\unity\\game\\backup_github sav3e\\SkyFarm\\assets\\scripts\\crops.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{993A71DA-BDC6-70A4-CE31-E7A247D66ED6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\crops.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{993A71DA-BDC6-70A4-CE31-E7A247D66ED6}|Assembly-CSharp.csproj|f:\\unity\\game\\backup_github sav3e\\skyfarm\\assets\\scripts\\gameoverui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{993A71DA-BDC6-70A4-CE31-E7A247D66ED6}|Assembly-CSharp.csproj|F:\\unity\\game\\backup_github sav3e\\SkyFarm\\assets\\scripts\\cropcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{993A71DA-BDC6-70A4-CE31-E7A247D66ED6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cropcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{993A71DA-BDC6-70A4-CE31-E7A247D66ED6}|Assembly-CSharp.csproj|F:\\unity\\game\\backup_github sav3e\\SkyFarm\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{993A71DA-BDC6-70A4-CE31-E7A247D66ED6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{993A71DA-BDC6-70A4-CE31-E7A247D66ED6}|Assembly-CSharp.csproj|F:\\unity\\game\\backup_github sav3e\\SkyFarm\\assets\\scripts\\movecamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{993A71DA-BDC6-70A4-CE31-E7A247D66ED6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movecamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{993A71DA-BDC6-70A4-CE31-E7A247D66ED6}|Assembly-CSharp.csproj|F:\\unity\\game\\backup_github sav3e\\SkyFarm\\assets\\scripts\\gameoverui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{993A71DA-BDC6-70A4-CE31-E7A247D66ED6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameoverui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -41,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{993A71DA-BDC6-70A4-CE31-E7A247D66ED6}|Assembly-CSharp.csproj|F:\\unity\\game\\backup_github sav3e\\SkyFarm\\assets\\scripts\\playercombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{993A71DA-BDC6-70A4-CE31-E7A247D66ED6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{993A71DA-BDC6-70A4-CE31-E7A247D66ED6}|Assembly-CSharp.csproj|F:\\unity\\game\\backup_github sav3e\\SkyFarm\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{993A71DA-BDC6-70A4-CE31-E7A247D66ED6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{993A71DA-BDC6-70A4-CE31-E7A247D66ED6}|Assembly-CSharp.csproj|F:\\unity\\game\\backup_github sav3e\\SkyFarm\\assets\\scripts\\playercam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -74,11 +78,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "Item.cs",
+              "DocumentMoniker": "F:\\unity\\game\\backup_github sav3e\\SkyFarm\\Assets\\scripts\\Item.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\Item.cs",
+              "ToolTip": "F:\\unity\\game\\backup_github sav3e\\SkyFarm\\Assets\\scripts\\Item.cs",
+              "RelativeToolTip": "Assets\\scripts\\Item.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T14:27:38.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "GameOverUI.cs",
               "DocumentMoniker": "F:\\unity\\game\\backup_github sav3e\\SkyFarm\\Assets\\scripts\\GameOverUI.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\GameOverUI.cs",
@@ -86,12 +103,11 @@
               "RelativeToolTip": "Assets\\scripts\\GameOverUI.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T19:32:11.372Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-11T19:32:11.372Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "PlayerCombat.cs",
               "DocumentMoniker": "F:\\unity\\game\\backup_github sav3e\\SkyFarm\\Assets\\scripts\\PlayerCombat.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\PlayerCombat.cs",
@@ -103,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Health.cs",
               "DocumentMoniker": "F:\\unity\\game\\backup_github sav3e\\SkyFarm\\Assets\\scripts\\Health.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Health.cs",
@@ -115,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Enemy.cs",
               "DocumentMoniker": "F:\\unity\\game\\backup_github sav3e\\SkyFarm\\Assets\\scripts\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Enemy.cs",
@@ -133,26 +149,27 @@
               "RelativeDocumentMoniker": "Assets\\scripts\\PlayerInteraction.cs",
               "ToolTip": "F:\\unity\\game\\backup_github sav3e\\SkyFarm\\Assets\\scripts\\PlayerInteraction.cs",
               "RelativeToolTip": "Assets\\scripts\\PlayerInteraction.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAowEkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAowFMAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-01T13:08:35.63Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "F:\\unity\\game\\backup_github sav3e\\SkyFarm\\Assets\\scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\PlayerMovement.cs",
               "ToolTip": "F:\\unity\\game\\backup_github sav3e\\SkyFarm\\Assets\\scripts\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\scripts\\PlayerMovement.cs",
-              "ViewState": "AQIAAHIAAAAAAAAAAAAowAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T12:41:07.78Z"
+              "WhenOpened": "2024-11-01T12:41:07.78Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "playercam.cs",
               "DocumentMoniker": "F:\\unity\\game\\backup_github sav3e\\SkyFarm\\Assets\\scripts\\playercam.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\playercam.cs",
@@ -164,7 +181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "moveCamera.cs",
               "DocumentMoniker": "F:\\unity\\game\\backup_github sav3e\\SkyFarm\\Assets\\scripts\\moveCamera.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\moveCamera.cs",
@@ -172,12 +189,11 @@
               "RelativeToolTip": "Assets\\scripts\\moveCamera.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T12:41:03.954Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T12:41:03.954Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "inventoryUI.cs",
               "DocumentMoniker": "F:\\unity\\game\\backup_github sav3e\\SkyFarm\\Assets\\scripts\\inventoryUI.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\inventoryUI.cs",
@@ -189,7 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "InventoryItem.cs",
               "DocumentMoniker": "F:\\unity\\game\\backup_github sav3e\\SkyFarm\\Assets\\scripts\\InventoryItem.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\InventoryItem.cs",
@@ -201,7 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "inventory.cs",
               "DocumentMoniker": "F:\\unity\\game\\backup_github sav3e\\SkyFarm\\Assets\\scripts\\inventory.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\inventory.cs",
@@ -213,7 +229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "forageble.cs",
               "DocumentMoniker": "F:\\unity\\game\\backup_github sav3e\\SkyFarm\\Assets\\scripts\\forageble.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\forageble.cs",
@@ -225,7 +241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "foragebleComponent.cs",
               "DocumentMoniker": "F:\\unity\\game\\backup_github sav3e\\SkyFarm\\Assets\\scripts\\foragebleComponent.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\foragebleComponent.cs",
@@ -237,39 +253,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "GameManager.cs",
               "DocumentMoniker": "F:\\unity\\game\\backup_github sav3e\\SkyFarm\\Assets\\scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\GameManager.cs",
               "ToolTip": "F:\\unity\\game\\backup_github sav3e\\SkyFarm\\Assets\\scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\scripts\\GameManager.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAowAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA1wAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-01T12:40:50.417Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "crops.cs",
               "DocumentMoniker": "F:\\unity\\game\\backup_github sav3e\\SkyFarm\\Assets\\scripts\\crops.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\crops.cs",
               "ToolTip": "F:\\unity\\game\\backup_github sav3e\\SkyFarm\\Assets\\scripts\\crops.cs",
               "RelativeToolTip": "Assets\\scripts\\crops.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-01T12:40:45.123Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "cropComponent.cs",
               "DocumentMoniker": "F:\\unity\\game\\backup_github sav3e\\SkyFarm\\Assets\\scripts\\cropComponent.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\cropComponent.cs",
               "ToolTip": "F:\\unity\\game\\backup_github sav3e\\SkyFarm\\Assets\\scripts\\cropComponent.cs",
               "RelativeToolTip": "Assets\\scripts\\cropComponent.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAkwCsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA1wCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-01T12:39:57.724Z",
               "EditorCaption": ""
