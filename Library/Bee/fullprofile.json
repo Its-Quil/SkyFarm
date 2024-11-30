@@ -7,6 +7,7 @@
 
 "traceEvents":[
 <<<<<<< HEAD
+<<<<<<< HEAD
 { "pid": 30032, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
 { "pid": 30032, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
 { "pid": 30032, "tid": 57, "ph": "M", "name": "thread_name", "args": { "name": "Thread Pool Worker" } },
@@ -1981,6 +1982,8 @@
 { "pid": 30032, "tid": 57, "ts": 1732983384261153, "dur": 19915, "ph": "X", "name": "backend1.traceevents", "args": {} },
 { "pid": 30032, "tid": 57, "ts": 1732983384255120, "dur": 25987, "ph": "X", "name": "Write chrome-trace events", "args": {} },
 =======
+=======
+>>>>>>> parent of e00ce79e (i added some scripts)
 { "pid": 2560, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
 { "pid": 2560, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
 { "pid": 2560, "tid": 8747, "ph": "M", "name": "thread_name", "args": { "name": "Thread Pool Worker" } },
@@ -7126,6 +7129,9 @@
 ,{ "pid": 2560, "tid": 8747, "ts": 1730193326007353, "dur": 25, "ph": "X", "name": "Wait for external events", "args": {"First to finish": "backend1.traceevents"} },
 { "pid": 2560, "tid": 8747, "ts": 1730193326007483, "dur": 47157, "ph": "X", "name": "backend1.traceevents", "args": {} },
 { "pid": 2560, "tid": 8747, "ts": 1730193325996034, "dur": 58661, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+<<<<<<< HEAD
+>>>>>>> parent of e00ce79e (i added some scripts)
+=======
 >>>>>>> parent of e00ce79e (i added some scripts)
 {}
 

@@ -19388,8 +19388,13 @@
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
 <<<<<<< HEAD
+<<<<<<< HEAD
       "PayloadOffset": 1306142,
       "PayloadLength": 27550,
+=======
+      "PayloadOffset": 1304877,
+      "PayloadLength": 27487,
+>>>>>>> parent of e00ce79e (i added some scripts)
 =======
       "PayloadOffset": 1304877,
       "PayloadLength": 27487,
@@ -19406,7 +19411,11 @@
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
 <<<<<<< HEAD
+<<<<<<< HEAD
       "PayloadOffset": 1333779,
+=======
+      "PayloadOffset": 1332451,
+>>>>>>> parent of e00ce79e (i added some scripts)
 =======
       "PayloadOffset": 1332451,
 >>>>>>> parent of e00ce79e (i added some scripts)
@@ -19659,7 +19668,10 @@
         "Assets/scripts/foragebleComponent.cs",
         "Assets/scripts/GameManager.cs",
 <<<<<<< HEAD
+<<<<<<< HEAD
         "Assets/scripts/Item.cs",
+=======
+>>>>>>> parent of e00ce79e (i added some scripts)
 =======
 >>>>>>> parent of e00ce79e (i added some scripts)
         "Assets/scripts/moveCamera.cs",
@@ -19905,7 +19917,11 @@
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
 <<<<<<< HEAD
+<<<<<<< HEAD
       "PayloadOffset": 1333875,
+=======
+      "PayloadOffset": 1332547,
+>>>>>>> parent of e00ce79e (i added some scripts)
 =======
       "PayloadOffset": 1332547,
 >>>>>>> parent of e00ce79e (i added some scripts)

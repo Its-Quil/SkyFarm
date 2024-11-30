@@ -1,5 +1,6 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
 <<<<<<< HEAD
+<<<<<<< HEAD
 ,{ "pid":12345, "tid":0, "ts":1732983383978669, "dur":6942, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1732983383985622, "dur":254, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1732983383985936, "dur":451, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
@@ -1402,6 +1403,8 @@
 ,{ "pid":12345, "tid":16, "ts":1732983384062030, "dur":106315, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1732983384208084, "dur":22336, "ph":"X", "name": "ProfilerWriteOutput" }
 =======
+=======
+>>>>>>> parent of e00ce79e (i added some scripts)
 ,{ "pid":12345, "tid":0, "ts":1730193324646430, "dur":53, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1730193324646529, "dur":10327, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1730193324656870, "dur":435, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
@@ -5631,5 +5634,8 @@
 ,{ "pid":12345, "tid":16, "ts":1730193324900708, "dur":221, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":16, "ts":1730193324900938, "dur":850783, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1730193325816624, "dur":119561, "ph":"X", "name": "ProfilerWriteOutput" }
+<<<<<<< HEAD
+>>>>>>> parent of e00ce79e (i added some scripts)
+=======
 >>>>>>> parent of e00ce79e (i added some scripts)
 ,

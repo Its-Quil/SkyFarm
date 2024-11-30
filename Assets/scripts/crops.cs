@@ -19,6 +19,7 @@ public class Crop
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     // Simulate the growth of the crop
     public void Grow(float deltaTime)
 =======
@@ -30,6 +31,12 @@ public class Crop
 <<<<<<< HEAD
             CurrentGrowthTime += deltaTime;
 =======
+=======
+    public void Grow()
+    {
+        if (CurrentGrowthStage < GrowthTime)
+        {
+>>>>>>> parent of e00ce79e (i added some scripts)
             CurrentGrowthStage++;
 >>>>>>> parent of e00ce79e (i added some scripts)
         }

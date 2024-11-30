@@ -17,6 +17,7 @@ F:/unity/game/park
 Logs/AssetImportWorker0.log
 -srvPort
 <<<<<<< HEAD
+<<<<<<< HEAD
 58138
 Successfully changed project path to: F:/unity/game/park
 F:/unity/game/park
@@ -29,6 +30,11 @@ Logs/AssetImportWorker0.log
 Successfully changed project path to: F:/unity/game/backup_github sav3e/SkyFarm
 F:/unity/game/backup_github sav3e/SkyFarm
 >>>>>>> Stashed changes
+=======
+54705
+Successfully changed project path to: F:/unity/game/park
+F:/unity/game/park
+>>>>>>> parent of e00ce79e (i added some scripts)
 =======
 54705
 Successfully changed project path to: F:/unity/game/park
@@ -66,6 +72,7 @@ F:/unity/game/park
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 Player connection [19580]  Target information:
 =======
@@ -80,6 +87,16 @@ Player connection [19580] Host joined alternative multi-casting on [225.0.0.222:
 <<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 7523.35 ms, found 3 plugins.
 =======
+Refreshing native plugins compatible for Editor in 13.01 ms, found 3 plugins.
+>>>>>>> parent of e00ce79e (i added some scripts)
+=======
+Player connection [4844]  Target information:
+
+Player connection [4844]  * "[IP] 192.168.2.4 [Port] 0 [Flags] 2 [Guid] 2487540435 [EditorId] 2487540435 [Version] 1048832 [Id] WindowsEditor(7,BlubDev) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [4844] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [4844] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 Refreshing native plugins compatible for Editor in 13.01 ms, found 3 plugins.
 >>>>>>> parent of e00ce79e (i added some scripts)
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -114,6 +131,7 @@ Mono path[0] = 'F:/unity/2022.3.47f1/Editor/Data/Managed'
 Mono path[1] = 'F:/unity/2022.3.47f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'F:/unity/2022.3.47f1/Editor/Data/MonoBleedingEdge/etc'
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56864
 =======
@@ -122,10 +140,14 @@ Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,susp
 =======
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56540
 >>>>>>> parent of e00ce79e (i added some scripts)
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56540
+>>>>>>> parent of e00ce79e (i added some scripts)
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: F:/unity/2022.3.47f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: F:/unity/2022.3.47f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 Registered in 0.318698 seconds.
@@ -147,6 +169,8 @@ Domain Reload Profiling: 447ms
 	BeginReloadAssembly (101ms)
 >>>>>>> Stashed changes
 =======
+=======
+>>>>>>> parent of e00ce79e (i added some scripts)
 Registered in 0.020478 seconds.
 - Loaded All Assemblies, in  0.692 seconds
 Native extension for WindowsStandalone target not found
@@ -155,12 +179,16 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.433 seconds
 Domain Reload Profiling: 1126ms
 	BeginReloadAssembly (283ms)
+<<<<<<< HEAD
+>>>>>>> parent of e00ce79e (i added some scripts)
+=======
 >>>>>>> parent of e00ce79e (i added some scripts)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 	RebuildCommonClasses (54ms)
@@ -169,6 +197,8 @@ Domain Reload Profiling: 1126ms
 	LoadAllAssembliesAndSetupDomain (672ms)
 		LoadAssemblies (13286ms)
 =======
+=======
+>>>>>>> parent of e00ce79e (i added some scripts)
 	RebuildCommonClasses (59ms)
 	RebuildNativeTypeToScriptingClass (16ms)
 	initialDomainReloadingComplete (108ms)
@@ -221,6 +251,9 @@ Domain Reload Profiling: 1126ms
 			BeforeProcessingInitializeOnLoad (4ms)
 			ProcessInitializeOnLoadAttributes (251ms)
 			ProcessInitializeOnLoadMethodAttributes (77ms)
+<<<<<<< HEAD
+>>>>>>> parent of e00ce79e (i added some scripts)
+=======
 >>>>>>> parent of e00ce79e (i added some scripts)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -231,11 +264,15 @@ Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 - Loaded All Assemblies, in 14.008 seconds
 =======
 - Loaded All Assemblies, in  0.455 seconds
 >>>>>>> Stashed changes
+=======
+- Loaded All Assemblies, in  2.368 seconds
+>>>>>>> parent of e00ce79e (i added some scripts)
 =======
 - Loaded All Assemblies, in  2.368 seconds
 >>>>>>> parent of e00ce79e (i added some scripts)
@@ -247,10 +284,16 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 - Finished resetting the current domain, in  1.838 seconds
 Domain Reload Profiling: 15819ms
 	BeginReloadAssembly (338ms)
+=======
+- Finished resetting the current domain, in  1.013 seconds
+Domain Reload Profiling: 3376ms
+	BeginReloadAssembly (328ms)
+>>>>>>> parent of e00ce79e (i added some scripts)
 =======
 - Finished resetting the current domain, in  1.013 seconds
 Domain Reload Profiling: 3376ms
@@ -261,6 +304,7 @@ Domain Reload Profiling: 3376ms
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 <<<<<<< HEAD
+<<<<<<< HEAD
 		CreateAndSetChildDomain (32ms)
 	RebuildCommonClasses (45ms)
 	RebuildNativeTypeToScriptingClass (12ms)
@@ -268,6 +312,8 @@ Domain Reload Profiling: 3376ms
 	LoadAllAssembliesAndSetupDomain (13526ms)
 		LoadAssemblies (13300ms)
 =======
+=======
+>>>>>>> parent of e00ce79e (i added some scripts)
 		CreateAndSetChildDomain (30ms)
 	RebuildCommonClasses (54ms)
 	RebuildNativeTypeToScriptingClass (14ms)
@@ -299,6 +345,7 @@ Domain Reload Profiling: 3376ms
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.23 seconds
 Refreshing native plugins compatible for Editor in 9.14 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+<<<<<<< HEAD
 <<<<<<< HEAD
 Unloading 3097 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 18 unused Assets / (27.1 KB). Loaded Objects now: 3587.
@@ -348,10 +395,15 @@ Memory consumption went from 134.8 MB to 134.8 MB.
 Total: 2.268000 ms (FindLiveObjects: 0.185300 ms CreateObjectMapping: 0.056700 ms MarkObjects: 1.987400 ms  DeleteObjects: 0.037800 ms)
 >>>>>>> Stashed changes
 =======
+=======
+>>>>>>> parent of e00ce79e (i added some scripts)
 Unloading 3092 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 18 unused Assets / (27.2 KB). Loaded Objects now: 3577.
 Memory consumption went from 128.2 MB to 128.2 MB.
 Total: 5.288300 ms (FindLiveObjects: 0.303700 ms CreateObjectMapping: 0.102000 ms MarkObjects: 4.777000 ms  DeleteObjects: 0.103500 ms)
+<<<<<<< HEAD
+>>>>>>> parent of e00ce79e (i added some scripts)
+=======
 >>>>>>> parent of e00ce79e (i added some scripts)
 
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -370,6 +422,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< Updated upstream
   Time since last request: 333468.419129 seconds.
@@ -514,6 +567,8 @@ AssetImportParameters requested are different than current active one (requested
   custom:scripting/monoscript/fileName/forageble.cs: 8700fbcf266e8eb53e4a0d1608cf236a -> 
   custom:scripting/precompiled-assembly-types:Assembly-CSharp: 5110ac521f3e81ee658c87af68f607cc -> 
 =======
+=======
+>>>>>>> parent of e00ce79e (i added some scripts)
   Time since last request: 263864.342144 seconds.
   path: Assets/terrain/terrain.index
   artifactKey: Guid(2b36a2f4610392741b1bbc2f17097904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)

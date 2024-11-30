@@ -16,6 +16,7 @@ public class CropComponent : MonoBehaviour
 
     // Additional methods for harvesting, etc.
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     // Detect mouse click on crop object
     private void OnMouseDown()
@@ -37,6 +38,8 @@ public class CropComponent : MonoBehaviour
         // Update crop growth
         crop.Grow(Time.deltaTime);
     }
+=======
+>>>>>>> parent of e00ce79e (i added some scripts)
 =======
 >>>>>>> parent of e00ce79e (i added some scripts)
 }
