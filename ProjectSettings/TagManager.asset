@@ -3,7 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
+<<<<<<< Updated upstream
   tags: []
+=======
+  tags:
+  - Crop
+  - Forageable
+  - forageble
+  - Enemy
+  - player
+  - item
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX

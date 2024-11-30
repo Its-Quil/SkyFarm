@@ -5,23 +5,29 @@ using UnityEngine;
 public class Crop
 {
     public string Name { get; set; }
-    public int GrowthTime { get; set; } // in days
-    public int CurrentGrowthStage { get; set; } // 0 to GrowthTime
-    public bool IsHarvestable => CurrentGrowthStage >= GrowthTime;
+    public float GrowthTime { get; set; } // in seconds
+    public float CurrentGrowthTime { get; set; } // 0 to GrowthTime
+    public bool IsHarvestable => CurrentGrowthTime >= GrowthTime;
 
     public GameObject cropPrefab;
 
-    public Crop(string name, int growthTime)
+    public Crop(string name, float growthTime)
     {
         Name = name;
         GrowthTime = growthTime;
-        CurrentGrowthStage = 0;
+        CurrentGrowthTime = 0;
     }
 
+<<<<<<< Updated upstream
     public void Grow()
+=======
+    // Simulate the growth of the crop
+    public void Grow(float deltaTime)
+>>>>>>> Stashed changes
     {
-        if (CurrentGrowthStage < GrowthTime)
+        if (CurrentGrowthTime < GrowthTime)
         {
+<<<<<<< Updated upstream
             CurrentGrowthStage++;
         }
     }
@@ -40,6 +46,9 @@ public class Crop
         {
             // Give player item, destroy crop object
             GameObject.Destroy(crop.cropPrefab);
+=======
+            CurrentGrowthTime += deltaTime;
+>>>>>>> Stashed changes
         }
     }
 }

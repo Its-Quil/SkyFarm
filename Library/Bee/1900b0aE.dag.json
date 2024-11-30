@@ -19387,8 +19387,13 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp",
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 1304877,
       "PayloadLength": 27487,
+=======
+      "PayloadOffset": 1455539,
+      "PayloadLength": 28141,
+>>>>>>> Stashed changes
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -19400,7 +19405,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 1332451,
+=======
+      "PayloadOffset": 1483767,
+>>>>>>> Stashed changes
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -19649,6 +19658,15 @@
         "Assets/scripts/forageble.cs",
         "Assets/scripts/foragebleComponent.cs",
         "Assets/scripts/GameManager.cs",
+<<<<<<< Updated upstream
+=======
+        "Assets/scripts/GameOverUI.cs",
+        "Assets/scripts/Health.cs",
+        "Assets/scripts/inventory.cs",
+        "Assets/scripts/InventoryItem.cs",
+        "Assets/scripts/inventoryUI.cs",
+        "Assets/scripts/Item.cs",
+>>>>>>> Stashed changes
         "Assets/scripts/moveCamera.cs",
         "Assets/scripts/playercam.cs",
         "Assets/scripts/PlayerMovement.cs",
@@ -19890,8 +19908,13 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 1332547,
       "PayloadLength": 9366,
+=======
+      "PayloadOffset": 1483863,
+      "PayloadLength": 9729,
+>>>>>>> Stashed changes
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [

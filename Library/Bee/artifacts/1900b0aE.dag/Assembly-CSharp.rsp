@@ -357,6 +357,15 @@
 "Assets/scripts/forageble.cs"
 "Assets/scripts/foragebleComponent.cs"
 "Assets/scripts/GameManager.cs"
+<<<<<<< Updated upstream
+=======
+"Assets/scripts/GameOverUI.cs"
+"Assets/scripts/Health.cs"
+"Assets/scripts/inventory.cs"
+"Assets/scripts/InventoryItem.cs"
+"Assets/scripts/inventoryUI.cs"
+"Assets/scripts/Item.cs"
+>>>>>>> Stashed changes
 "Assets/scripts/moveCamera.cs"
 "Assets/scripts/playercam.cs"
 "Assets/scripts/PlayerMovement.cs"
