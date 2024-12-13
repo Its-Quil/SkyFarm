@@ -6,6 +6,8 @@ using UnityEngine;
 public class Inventory : MonoBehaviour
 {
     public List<InventoryItem> items = new List<InventoryItem>();
+    public delegate void OnInventoryChanged();
+    public event OnInventoryChanged onInventoryChanged;
 
     // Add an item to the inventory
     public void AddItem(string itemName)
@@ -20,6 +22,8 @@ public class Inventory : MonoBehaviour
         {
             items.Add(new InventoryItem(itemName, 1));
         }
+
+        onInventoryChanged?.Invoke();
     }
 
     // Remove an item from the inventory
@@ -34,6 +38,8 @@ public class Inventory : MonoBehaviour
                 items.Remove(item);
             }
         }
+
+        onInventoryChanged?.Invoke();
     }
 
     // Print the inventory to the console

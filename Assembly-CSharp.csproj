@@ -63,6 +63,7 @@
     <Compile Include="Assets\scripts\crops.cs" />
     <Compile Include="Assets\scripts\GameManager.cs" />
     <Compile Include="Assets\scripts\Enemy.cs" />
+    <Compile Include="Assets\scripts\EnemySpawnTrigger.cs" />
     <Compile Include="Assets\scripts\GameOverUI.cs" />
     <Compile Include="Assets\scripts\foragebleComponent.cs" />
     <Compile Include="Assets\scripts\PlayerMovement.cs" />

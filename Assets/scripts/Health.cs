@@ -6,6 +6,7 @@ public class Health : MonoBehaviour
 {
     public int maxHealth = 100;
     private int currentHealth;
+    public EnemySpawnTrigger enemySpawnTrigger; // Reference to the EnemySpawnTrigger script
 
     // Property to get the current health
     public int CurrentHealth
@@ -42,8 +43,11 @@ public class Health : MonoBehaviour
 
         if (gameObject.CompareTag("Enemy"))
         {
-            // Notify the EnemyManager to respawn this enemy
-            EnemyManager.instance.RespawnEnemy(5f); // Adjust the respawn timer as needed
+            // Notify the EnemySpawnTrigger to respawn this enemy
+            if (enemySpawnTrigger != null)
+            {
+                enemySpawnTrigger.RespawnEnemy(gameObject);
+            }
             Destroy(gameObject); // Destroy the enemy immediately
         }
 

@@ -58,6 +58,12 @@ public class GameManager : MonoBehaviour
                 // Notify player that items are available to collect
             }
         }
+
+        // Plant a crop when 'R' is pressed
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            PlantCrop(new Crop("Wheat", 5), new Vector3(0, 2, 0)); // Example position
+        }
     }
 
     // Plant a crop at the specified position
@@ -117,6 +123,6 @@ public class GameManager : MonoBehaviour
         }
 
         // Optionally, disable player controls
-        // PlayerManager.instance.player.GetComponent<PlayerController>().enabled = false;
+        //PlayerManager.instance.player.GetComponent<PlayerMovement>().enabled = false;
     }
 }

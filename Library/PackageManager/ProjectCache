@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638668301460000000
-    m_Hash: 4265905247
+      ticks: 638685852440000000
+    m_Hash: 865262820
   m_LockFileStatus:
     m_FilePath: F:/unity/game/backup_github sav3e/SkyFarm/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638668301460000000
-    m_Hash: 4108824631
+      ticks: 638685852440000000
+    m_Hash: 2284002744
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -58,6 +58,7 @@ m_ResolvedPackages:
     - 2.0.0
     - 2.0.3
     - 2.0.4
+    - 2.0.5
     compatible:
     - 1.1.5
     recommended: 1.1.5
@@ -193,9 +194,11 @@ m_ResolvedPackages:
     - 2.4.4
     - 2.5.1
     - 2.5.2
+    - 2.6.0
     compatible:
     - 2.5.1
     - 2.5.2
+    - 2.6.0
     recommended: 2.5.2
     deprecated: []
   dependencies: []

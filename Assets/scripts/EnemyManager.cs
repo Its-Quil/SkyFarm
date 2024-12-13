@@ -20,17 +20,16 @@ public class EnemyManager : MonoBehaviour
         }
     }
 
-    public void RespawnEnemy(float respawnTime)
+    public void SpawnEnemyAtPoint(Vector3 spawnPosition, float respawnTime)
     {
-        StartCoroutine(RespawnEnemyCoroutine(respawnTime));
+        StartCoroutine(SpawnEnemyCoroutine(spawnPosition, respawnTime));
     }
 
-    private IEnumerator RespawnEnemyCoroutine(float respawnTime)
+    private IEnumerator SpawnEnemyCoroutine(Vector3 spawnPosition, float respawnTime)
     {
         yield return new WaitForSeconds(respawnTime);
 
-        // Instantiate the enemy at a random position or a predefined spawn point
-        Vector3 spawnPosition = GetRandomSpawnPosition();
+        // Instantiate the enemy at the specified spawn position
         GameObject newEnemy = Instantiate(enemyPrefab, spawnPosition, Quaternion.identity);
 
         // Assign patrol points to the new enemy
@@ -39,12 +38,5 @@ public class EnemyManager : MonoBehaviour
         {
             enemyScript.patrolPoints = patrolPoints;
         }
-    }
-
-    private Vector3 GetRandomSpawnPosition()
-    {
-        // Implement your logic to get a random spawn position
-        // For example, you can use predefined spawn points or random positions within a certain area
-        return new Vector3(Random.Range(-10, 10), 0, Random.Range(-10, 10));
     }
 }

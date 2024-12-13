@@ -3,7 +3,11 @@ guid: 4b77c51964a8e1941acfd5b62e6882de
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - cropPrefab: {fileID: 8948192290585484214, guid: 6ad3f0234c8f50144a87e6a4063cd0e4, type: 3}
+  - forageablePrefab: {fileID: 5396729523007835864, guid: d92fbc89bf467414a8a86a815fa8472f, type: 3}
+  - playerInventory: {instanceID: 0}
+  - gameOverUI: {fileID: 4391392954688361425, guid: 657bd520481ce9a41802c1aaa0ef9a26, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
