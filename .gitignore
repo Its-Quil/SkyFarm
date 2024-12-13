@@ -6,3 +6,7 @@
 /Library
 /Library
 /Temp
+/Library/Bee
+/Library/ScriptAssemblies
+/Library
+*.dll
