@@ -25,3 +25,5 @@ Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Updater.UnityAdditionalFi
 /UserSettings
 /obj
 *.csproj
+/Assets
+/Library
