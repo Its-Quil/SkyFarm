@@ -6,7 +6,22 @@
 /Library
 /Library
 /Temp
+<<<<<<< HEAD
 /Library/Bee
 /Library/ScriptAssemblies
 /Library
 
+=======
+>>>>>>> parent of f92cb621 (some more ignores)
+/.vs
+/.vs/SkyFarm
+Assembly-CSharp.csproj
+/Library
+/Library/Bee
+Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Updater.UnityAdditionalFile.txt
+/Library
+/Library
+/Library
+/UserSettings
+/obj
+*.csproj
