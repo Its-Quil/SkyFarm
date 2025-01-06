@@ -12,7 +12,7 @@ public class EnemySpawnTrigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("player") && respawnEnabled)
+        if (other.CompareTag("Player") && respawnEnabled)
         {
             foreach (Transform spawnPoint in spawnPoints)
             {

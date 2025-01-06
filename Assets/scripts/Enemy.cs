@@ -19,7 +19,16 @@ public class Enemy : MonoBehaviour
 
     void Start()
     {
-        target = GameObject.FindGameObjectWithTag("player").transform;
+        GameObject player = GameObject.FindGameObjectWithTag("player");
+        if (player != null)
+        {
+            target = player.transform;
+        }
+        else
+        {
+            Debug.LogError("Player not found in the scene. Ensure the player GameObject is tagged as 'Player'.");
+        }
+
         agent = GetComponent<NavMeshAgent>();
 
         if (agent == null)
@@ -40,9 +49,9 @@ public class Enemy : MonoBehaviour
 
     void Update()
     {
-        if (agent == null || !agent.isOnNavMesh)
+        if (agent == null || !agent.isOnNavMesh || target == null)
         {
-            return; // Exit if NavMeshAgent is not attached or not on NavMesh
+            return; // Exit if NavMeshAgent is not attached, not on NavMesh, or target is not found
         }
 
         float distance = Vector3.Distance(target.position, transform.position);
@@ -101,7 +110,15 @@ public class Enemy : MonoBehaviour
         // Damage the player
         if (target != null)
         {
-            target.GetComponent<Health>().TakeDamage(attackDamage);
+            Health targetHealth = target.GetComponent<Health>();
+            if (targetHealth != null)
+            {
+                targetHealth.TakeDamage(attackDamage);
+            }
+            else
+            {
+                Debug.LogError("Health component not found on the player.");
+            }
         }
 
         // Resume movement after a short delay

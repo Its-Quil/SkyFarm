@@ -67,7 +67,7 @@ public class GameOverUI : MonoBehaviour
             Cursor.visible = true;
 
             // Pause the game
-            Time.timeScale = 0f;
+
         }
         else
         {
@@ -95,7 +95,7 @@ public class GameOverUI : MonoBehaviour
         Cursor.visible = false;
 
         // Resume the game
-        Time.timeScale = 1f;
+
     }
 
     public void QuitGame()
@@ -105,8 +105,7 @@ public class GameOverUI : MonoBehaviour
 
     public void ReturnToMainMenu()
     {
-        // Resume the game before loading the main menu
-        Time.timeScale = 1f;
+        // Resume the game before loading the main 
         SceneManager.LoadScene("MainMenu");
     }
 }
